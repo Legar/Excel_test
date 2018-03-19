@@ -1,7 +1,7 @@
-import openpyxl
+import xlwt
 
 #задаем кодировку будущей книги
-book=openpyxl.Workbook(encoding="utf-8")
+book=xlwt.Workbook(encoding="utf-8")
 #создание разделов
 sheet1=book.add_sheet("Test_sheet")
 
