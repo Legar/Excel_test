@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pytabletest",
+  "private_key_id": "2184e6dd558805afa1a38e320fb69e664001f1f5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCmZttZCcvUYVU/\nLC3Dssw5Y2/ICQOWvqaSSsTKiyHrfCFM/EKtDDt+m6ZGkQgBnJSZh7XdfTZUpTU9\naXnHioEO2Kc8L27DhOPZXtxdsHdFXeMbU0++fEV6cHZtkMPHWBs5BVXXXheMmUpc\nBw3vkjfP+pRmT7Ly/R6nT+xgZ/G8+KLUg4wcMxV6mj+WvrER4FfjdVlCi6dLUCiS\nCkx3Cp+mIFKQYL/Qsrb7FKvkYGsagpRr7AL05/g5NydbovvDSAnniTmLCBRNXvo0\nr6j/FWGQOlud6ImYqoR8MPnVT9EEpJezDzLXWy9ahwv6dL4ZUdrf4e1zO59IEY59\nrkRTaRDPAgMBAAECggEAQnRfc16rLYU1o0YEfNxiHSUuFigra792DISZtP39rOrk\n7bbs9ekltXl53UK8fNBItEvzgKIp2YIlEgKWpO8WfZRerXWP+buPt1bgEPaRm31U\nXqxV84/zu2NAmJ8w4OK59HrB/oHQS9FIVhpnIV82tPOw4m8/2zTlUhJkJ1g7vai1\nTSHo/d87ABdrlHbBwlWmMY1vzjoZ4i4fF1fLVAeDF5MoYBjxNklO5HM8rJ2/IF+R\nMnPtayIHdbXLA5a1cTZFvNPG4v8kS3jgpx2z+yS4quqgG6xfIH7ApYSAULpalYxz\nC+jUA6beyAcOfnxCVCWDXdGLneWfMxtzdcTZmLIyWQKBgQDbZCplDHFLXJZTNmBU\ntJBs6PWVjd3ktkcNTe8gN+m5XxAOCk2R4pzOv3HvTcPdTnGAxnQiRjyTgWqW3eeM\ng7VgRA7bx6KJQaddCqC3yJSSb0APAUbVYHtQKYQhzfqYlb21XEepE2T0AbN9ttz7\nF4e+C0qLRgXwv/gBP6WkH1Zg6wKBgQDCKx2iMBTNf5PQ34nu7FY4tOuO5CqxUNoH\nDcX+IWzKJ/oTLPxd7uvx0h3AgxCZW3DO7KJWq7iVEX+ympHJVTEd07QTz5BkI/P7\nQh3HeAKJjMCjvRwit7EOd7HxAdvVk62rOBjyXo2FbgiI4Q+K5hdPQiZl6JzaAFoK\n5cksIsg2rQKBgBHITKdkGsrA9m5IOgajnBE30LAOj626GIg7iOZTod4klmiM7Tyl\n4Y/gdJuw8e8+LHUDoOYmS0Kpero/wkThaBIlcg7eX45AhBBGjEBZQbGc0tRkhhlF\neLlGpC8ZQvabLIVGtYg+yi/88099QuwXPClrQN+JDXI2HSP8xLBI2feBAoGBAIeP\nSIoiXXO3XUDXwFohgHTowwio/bF8DCwejpvFREnDLVHT94GxO+NB2em814rqD1E4\nXoJ6M01HwUq1pZDVvIvhcPjf0iRIAZ/q4hWQEN1telUWw5zteFzsbjwgGxX6m6ZN\nbQVRxCZi0uyVjJ9h0uZP/bTqeQ+ubS7sjM4WnoelAoGBAKPaFXgYya5txZww9Uha\nwgLmtOpKso45Ea1alZDhjh8gDpGcEoKdfnvesCv+UIMZFW17cVGms2J8z0TOOdJl\n4l7LsDghJdR1UzKOsLDc8AlnsK1lL+9NqlFVYkshlEZw/oREB8UHyizzRJj1djvQ\nef3r92RQossce4VtVpGqr1Tl\n-----END PRIVATE KEY-----\n",
+  "client_email": "logeru-pytest@pytabletest.iam.gserviceaccount.com",
+  "client_id": "101679557064506716679",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/logeru-pytest%40pytabletest.iam.gserviceaccount.com"
+}

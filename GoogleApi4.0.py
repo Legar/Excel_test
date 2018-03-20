@@ -5,7 +5,7 @@ import httplib2
 import oauth2client.service_account
 
 # Создание сервис обьектов для работы с гугл таблицами
-CREDENTIALS_FILE = "PyTableTest-44aed3e5ab67.json"  # имя файла с закрытым ключом
+CREDENTIALS_FILE = "PyTableTest-2184e6dd5588.json"  # имя файла с закрытым ключом
 
 credentials = oauth2client.service_account.ServiceAccountCredentials.from_json_keyfile_name(CREDENTIALS_FILE, [
     'https://www.googleapis.com/auth/spreadsheets',
