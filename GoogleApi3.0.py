@@ -13,15 +13,14 @@ credentials = ServiceAccountCredentials.from_json_keyfile_name('PyTableTest-44ae
 gc = gspread.authorize(credentials)
 
 # Открываем книгу по ссылке
-sh = gc.open_by_url(
-    'https://docs.google.com/spreadsheets/d/1WiNJT4Kv67QJT2HZofV0apiNw6m6uUMTYeINlqKVeeM/edit?usp=sharing')
+sh = gc.open_by_url('https://docs.google.com/spreadsheets/d/1B1oVSjtLNZXvoHSVCpAqNkmkVUFUDr1NDUI-hmD_zFA/edit?ts=5aafc6b6#gid=0')
 
 # Добавляем и именуем лист
 name_workcheet = input('введите имя книги: ')
 worksheet = sh.add_worksheet(title=name_workcheet, rows="8", cols="10")
 
 # Копируем данные из одной книги в другую
-worksheet1 = sh.worksheet("20.03.2018")
+worksheet1 = sh.worksheet("https://docs.google.com/spreadsheets/d/1e2a7lGrhojc1mO_MbMRy7fcmG1eMKjF_yaQbh989UCg/edit?ts=5aafe461#gid=0")
 
 # По циклу копируем значение значение первой строки
 
@@ -34,7 +33,7 @@ worksheet.update_cell('B1', val1)
 # sht1 = gc.open_by_key('0BmgG6nO_6dprdS1MN3d3MkdPa142WFRrdnRRUWl1UFE')
 
 # работать с документом по ссылке
-# wks = gc.open_by_url(("https://docs.google.com/spreadsheets/d/1WiNJT4Kv67QJT2HZofV0apiNw6m6uUMTYeINlqKVeeM/edit#gid=485491498").sheet1
+# wks = gc.open_by_url(("").sheet1
 
 # выборка по наименованию
 # worksheet = sheet1.worksheet("19.03.2018")

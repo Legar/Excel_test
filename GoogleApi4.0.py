@@ -14,9 +14,9 @@ httpAuth = credentials.authorize(httplib2.Http())
 service = apiclient.discovery.build('sheets', 'v4', http=httpAuth)
 
 # Create Google Table
-
+spreadsheet_name = input('введите имя таблицы: ')
 spreadsheet = service.spreadsheets().create(body={
-    'properties': {'title': 'Тянка тест1', 'locale': 'ru_RU'},
+    'properties': {'title': spreadsheet_name, 'locale': 'ru_RU'},
     'sheets': [{'properties': {'sheetType': 'GRID',
                                'sheetId': 0,
                                'title': 'Лист1',
